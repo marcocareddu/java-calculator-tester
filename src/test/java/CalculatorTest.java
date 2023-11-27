@@ -12,6 +12,12 @@ public class CalculatorTest{
         calc = new Calculator();
     }
 
+	
+/* TUTTI I TEST SEGUENTI, DIVISIONE ESCLUSA, LI HO FATTI SOLO A SCOPO DIDATTICO
+ *  TESTARE L'ARGOMENTO TESTING, HO VOLUTO TESTARE TUTTI I NUMERI POSITIVI 
+ *  ESCLUDENDO I NEGATIVI ANCHE SE NON HA MOLTO SENSO.
+ */
+	
 //	Testing Add Method
     @Test
     public void testAddNumber1Zero() throws Exception {
